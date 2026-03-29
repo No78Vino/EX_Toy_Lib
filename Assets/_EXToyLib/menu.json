@@ -117,6 +117,25 @@
       "LocalPath": "Assets/Plugins/ExOpenSource/ValueSecondOrderSystem",
       "GitURL_Path": "Assets/_EXToyLib/ValueSecondOrderSystem",
       "IntroductionURL": "https://github.com/No78Vino/EX_Toy_Lib/blob/main/Assets/_EXToyLib/ValueSecondOrderSystem/GUIDE.md"
+    },
+    {
+      "Name": "PCG工具库 (pcg_for_unity)",
+      "Version": "0.1",
+      "Intro": "仿Houdini SOP的Unity Editor PCG工具库，支持可视化节点编辑和AI Agent自动化生产3D资产",
+      "Author": "Ex-Hard (git@ No78Vino)",
+      "Tags": [
+        "PCG",
+        "Graph",
+        "程序化生成"
+      ],
+      "MenuPath": "EXHard开源插件收藏/PCG/PCG工具库",
+      "LocalPath": "Assets/Plugins/ExOpenSource/PCGToolkit",
+      "GitURL_Username": "No78Vino",
+      "GitURL_RepoName": "pcg_for_unity",
+      "GitURL_Branch": "main",
+      "GitURL_Path": "",
+      "IntroductionURL": "https://github.com/No78Vino/pcg_for_unity",
+      "Dependencies": []
     }
   ]
 }
