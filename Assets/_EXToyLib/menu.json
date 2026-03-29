@@ -59,7 +59,7 @@
         "GAS",
         "Gameplay技能系统"
       ],
-      "MenuPath": "EXHard开源插件收藏/EX-GAS/2.0",
+      "MenuPath": "EXHard开源插件收藏/EX-GAS/2.0(ECS版本)",
       "LocalPath": "Assets/Plugins/ExOpenSource/GAS2",
       "GitURL_Username": "No78Vino",
       "GitURL_RepoName": "gameplay-ability-system-for-unity",
