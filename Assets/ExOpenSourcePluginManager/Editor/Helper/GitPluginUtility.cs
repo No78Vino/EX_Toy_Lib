@@ -219,6 +219,15 @@ namespace ExOpenSource.Editor
                 {
                     Directory.CreateDirectory(installPath);
                     FileUtil.ReplaceDirectory(sourceDir, installPath);
+
+                    // 删除安装目录中的 .git 目录，避免 git 子项目冲突
+                    string installedGitDir = Path.Combine(installPath, ".git");
+                    if (Directory.Exists(installedGitDir))
+                    {
+                        try { Directory.Delete(installedGitDir, true); }
+                        catch (Exception e) { Debug.LogWarning($"删除.git目录失败: {e.Message}"); }
+                    }
+
                     AssetDatabase.Refresh();
                 }
                 else
