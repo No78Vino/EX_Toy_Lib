@@ -22,15 +22,15 @@
 
         public const string POOF_LIB_MGR = "EX开源插件管理器";
         public const string POOF_LIB_HOST_TITLE = "欢迎使用EX开源插件管理器";
-        public const string POOF_LIB_HOST_MSG = "<color=white><size=16>" 
+        public const string POOF_LIB_HOST_MSG = "<color=" + ExBrandStyle.HexTextPrimary + "><size=16>"
                                                 + "此工具用于管理项目资源目录\n"
                                                 + "1. 创建Assets/_PoofLibrary/menu.json文件\n"
                                                 + "2. 按照JSON格式配置资源目录\n"
-                                                + "3. 左侧菜单将自动显示配置的资源目录" 
+                                                + "3. 左侧菜单将自动显示配置的资源目录"
                                                 + "</size></color>";
         
-        public const string POOF_LIB_HOST_INTRO = "<color=white><size=20>" 
-                                                + "使用说明：\n" 
+        public const string POOF_LIB_HOST_INTRO = "<color=" + ExBrandStyle.HexTextPrimary + "><size=20>"
+                                                + "使用说明：\n"
                                                 + "EX开源插件管理器。可以搜罗 "
                                                 + "</size></color>";
         
@@ -46,7 +46,7 @@
             "• 私有仓库必须提供令牌，令牌可以避免GitHub速率限制\n" +
             "• 令牌创建地址: https://github.com/settings/tokens \n" +
             "• 本项目用到的token权限只需要 `repo` 权限即可。（如果你只访问public仓库，只需要勾选public_repo）\n" +
-            "• <color=orange> 注意：请勿泄露令牌信息！ 如需要使用令牌，请将其存入一个text文件，然后选择读取该text文件路径。</color>";
+            "• <color=" + ExBrandStyle.HexWarning + "> 注意：请勿泄露令牌信息！ 如需要使用令牌，请将其存入一个text文件，然后选择读取该text文件路径。</color>";
 
         public const string REPO_CONNECTION_TITLE = "连接的仓库配置";
         #endregion

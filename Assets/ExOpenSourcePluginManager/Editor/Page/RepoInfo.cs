@@ -40,7 +40,7 @@ namespace ExOpenSource.Editor
             get
             {
                 var gitRepoUrl = ExOpenSourceNetworkHelper.FormatGitHubUrl(userName, repoName, branch, remoteMenuPath);
-                return $"<color=white>下载内容地址(Raw URL):{gitRepoUrl}</color>";
+                return $"<color={ExBrandStyle.HexTextPrimary}>下载内容地址(Raw URL):{gitRepoUrl}</color>";
             }
         }
 
@@ -67,7 +67,7 @@ namespace ExOpenSource.Editor
                     Debug.LogWarning($"解析配置文件失败: {e.Message}");
                 }
 
-                return $"<color=white>菜单目录版本: {version}</color>";
+                return $"<color={ExBrandStyle.HexTextPrimary}>菜单目录版本: {version}</color>";
             }
         }
 
