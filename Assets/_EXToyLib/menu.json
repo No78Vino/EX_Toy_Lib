@@ -51,6 +51,24 @@
       "Dependencies": []
     },
     {
+      "Name": "EX-GAS",
+      "Version": "2.0",
+      "Intro": "该项目为Unreal Engine的Gameplay Ability System的Unity实现，目前实现了部分功能，后续会继续完善。\n\n该项目完全开源，欢迎大家一起参与开发，提出建议，共同完善。可以基于该项目进行二次开发。",
+      "Author": "Ex-Hard (git@ No78Vino)",
+      "Tags": [
+        "GAS",
+        "Gameplay技能系统"
+      ],
+      "MenuPath": "EXHard开源插件收藏/EX-GAS/2.0",
+      "LocalPath": "Assets/Plugins/ExOpenSource/GAS2",
+      "GitURL_Username": "No78Vino",
+      "GitURL_RepoName": "gameplay-ability-system-for-unity",
+      "GitURL_Branch": "EX-GAS-2.0",
+      "GitURL_Path": "Assets/GAS",
+      "IntroductionURL": "https://github.com/No78Vino/gameplay-ability-system-for-unity",
+      "Dependencies": []
+    },
+    {
       "Name": "EX-Maid For UI (XUI)",
       "Version": "1.0",
       "Intro": "本插件集成了LoxodonFramework(MVVM)和FairyGUI，用于快速开发UI界面。适用于单人/小团队/小规模游戏开发。",
