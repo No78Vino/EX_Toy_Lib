@@ -197,6 +197,27 @@
       "GitURL_Path": "SkillsForUnity",
       "IntroductionURL": "https://github.com/Besty0728/Unity-Skills",
       "Dependencies": []
+    },
+    {
+      "Name": "Loxodon Framework",
+      "Version": "2.6.7",
+      "Intro": "轻量级Unity MVVM框架，提供DataBinding、本地化、消息系统与异步任务等能力，支持Mono和IL2CPP，适用于中大型UI业务开发。",
+      "Author": "Clark Yang (git@ vovgou)",
+      "Tags": [
+        "UI",
+        "MVVM",
+        "DataBinding",
+        "Localization",
+        "Framework"
+      ],
+      "MenuPath": "EXHard开源插件收藏/UI/Loxodon Framework",
+      "LocalPath": "Assets/Plugins/ExOpenSource/LoxodonFramework",
+      "GitURL_Username": "vovgou",
+      "GitURL_RepoName": "loxodon-framework",
+      "GitURL_Branch": "master",
+      "GitURL_Path": "Loxodon.Framework/Assets/LoxodonFramework",
+      "IntroductionURL": "https://github.com/vovgou/loxodon-framework",
+      "Dependencies": []
     }
   ]
 }
