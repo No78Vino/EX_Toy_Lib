@@ -59,7 +59,7 @@
         "GAS",
         "Gameplay技能系统"
       ],
-      "MenuPath": "EXHard开源插件收藏/EX-GAS/2.0",
+      "MenuPath": "EXHard开源插件收藏/EX-GAS/2.0(ECS版本)",
       "LocalPath": "Assets/Plugins/ExOpenSource/GAS2",
       "GitURL_Username": "No78Vino",
       "GitURL_RepoName": "gameplay-ability-system-for-unity",
@@ -153,6 +153,49 @@
       "GitURL_Branch": "main",
       "GitURL_Path": "",
       "IntroductionURL": "https://github.com/No78Vino/pcg_for_unity",
+      "Dependencies": []
+    },
+    {
+      "Name": "HTML-to-UGUI-Baker",
+      "Version": "2.0",
+      "Intro": "将AI生成的HTML原型直接转换为Unity UGUI界面树的自动化生产管线。通过自定义的HTML数据属性规范（UI-DSL），结合Web坐标提取工具和Unity编辑器扩展，实现从“自然语言对话”到“生产级UGUI预制体”的无缝流转。\n\n支持多分辨率预设与动态适配、全控件拓扑支持（Toggle/Slider/Dropdown/ScrollRect等）、小驼峰命名法、零依赖纯C# Editor扩展。",
+      "Author": "StarrDream (git@ StarrDream)",
+      "Tags": [
+        "UI",
+        "HTML",
+        "UGUI",
+        "AI",
+        "编辑器工具"
+      ],
+      "MenuPath": "EXHard开源插件收藏/UI/HTML-to-UGUI-Baker",
+      "LocalPath": "Assets/Plugins/ExOpenSource/HTML-to-UGUI-Baker",
+      "GitURL_Username": "StarrDream",
+      "GitURL_RepoName": "HTML-to-UGUI-Baker",
+      "GitURL_Branch": "main",
+      "GitURL_Path": "",
+      "IntroductionURL": "https://github.com/StarrDream/HTML-to-UGUI-Baker",
+      "Dependencies": []
+    },
+    {
+      "Name": "Unity-Skills",
+      "Version": "1.0",
+      "Intro": "基于REST API的AI驱动Unity编辑器自动化引擎，让AI通过513个Skills直接操控Unity场景。\n\n支持半自动（代码优先）和全自动（直接操控）双模式，原生支持Claude Code、Antigravity、Gemini CLI、Codex四大IDE。涵盖GameObject、材质、场景、UI、Cinemachine、Timeline、物理、音频、地形、NavMesh、Shader、Prefab、动画等37个模块，支持批量操作、事务原子性（失败自动回滚）、多实例同时控制、超稳定长连接（Domain Reload自动恢复），并内置14个架构/性能/设计模式等顾问设计模块和防幻觉护栏。",
+      "Author": "Besty0728 (git@ Besty0728)",
+      "Tags": [
+        "AI",
+        "编辑器自动化",
+        "REST API",
+        "Skills",
+        "Claude",
+        "Gemini"
+      ],
+      "MenuPath": "EXHard开源插件收藏/编辑器工具/Unity-Skills",
+      "LocalPath": "Assets/Plugins/ExOpenSource/Unity-Skills",
+      "GitURL_Username": "Besty0728",
+      "GitURL_RepoName": "Unity-Skills",
+      "GitURL_Branch": "main",
+      "GitURL_Path": "SkillsForUnity",
+      "IntroductionURL": "https://github.com/Besty0728/Unity-Skills",
       "Dependencies": []
     }
   ]
