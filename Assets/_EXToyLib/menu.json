@@ -235,8 +235,8 @@
       "LocalPath": "Assets/Plugins/ExOpenSource/YooAsset",
       "GitURL_Username": "tuyoogame",
       "GitURL_RepoName": "YooAsset",
-      "GitURL_Branch": "master",
-      "GitURL_Path": "",
+      "GitURL_Branch": "main",
+      "GitURL_Path": "Assets/YooAsset",
       "IntroductionURL": "https://github.com/tuyoogame/YooAsset",
       "Dependencies": []
     }
